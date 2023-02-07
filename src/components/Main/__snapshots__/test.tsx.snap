@@ -1,9 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
+<main
+  class="c-iScSTD"
+  data-testid="main-teste"
+>
+  <div
+    class="c-ejJchN"
+  >
+    <img
+      alt="Representação do símbolo de um átomo dentro de um hexágono rosa, em conjunto do texto 'React Avançado'"
+      data-nimg="fill"
+      decoding="async"
+      loading="lazy"
+      src="/img/logo.svg"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+  </div>
+  <h1
+    class="c-LaDCC"
+  >
     React Avançado
   </h1>
+  <h2
+    class="c-cXbCXI"
+  >
+    TypeScript, ReactJS, NextJS e Stitches
+  </h2>
+  <div
+    class="c-gQAqeI"
+  >
+    <img
+      alt="Um garoto desenvolvedor de frente para uma tela com códigos."
+      data-nimg="fill"
+      decoding="async"
+      loading="lazy"
+      src="/img/hero-illustration.svg"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+  </div>
 </main>
 `;

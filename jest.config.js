@@ -14,7 +14,8 @@ const customJestConfig = {
   testEnvironment: 'jsdom',
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts(x)'],
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
+  snapshotSerializers: ['jest-stitches']
 };
 
 module.exports = createJestConfig(customJestConfig);
